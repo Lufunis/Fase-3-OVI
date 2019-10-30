@@ -159,3 +159,11 @@ body {
 	width: 640px;
 	height: 500px;
 }
+
+/********Estiilo fotografia usuario*/
+
+.autor-img{
+	border-radius: 100px;
+	height: 170px;
+	width: 160px;
+}

@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	font-family: Angsana New;
+	background: #F0B429;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.contenedor {
+	margin: auto;
+	width: 99%;
+}
+
+/*------------------Estilos Header---------------------*/
+.header {
+	height: 60px;
+}
+
+.header, .contenedor{	
+	justify-content: space-between;
+}
+
+.logo, .icon-menu {
+	margin: 5px;
+}
+
+.icon-menu {
+	display: block;
+	width: 40px;	
+	height: 40px;
+	font-size: 30px;	
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	margin-left: auto;
+	cursor: pointer;	
+}
+
+.unad-img{
+	display: block;
+	height: 150px;
+	width: 150px;	
+}
+
+/*------------------Estilos del menu---------------------*/
+.nav {
+	position: absolute;
+	top: 60px;
+	left: -100%;
+	width: 100%;
+	transition: all 0.4s;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-link {
+	display: block;
+	padding: 15px;	
+	background: #F0B429;
+	text-decoration: none;
+	color: #fff; 
+}
+
+.menu-link:hover, .select {
+	background: white;
+	color: #F0B429;
+}
+
+.mostrar {
+	left: 0;
+}
+
+
+/*------------------estilos del banner----------------*/
+
+.banner {
+	margin-top: -60px;
+	position: relative;
+	z-index: -1000;
+	margin-bottom: 20px;
+}
+
+.banner .contenedor {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;	
+	text-align: center;
+}
+
+.banner-titulo{
+	text-shadow: 3px 2px #f0b429;	
+	font-size: 3em;
+}
+
+.banner-img{
+	display: block;	
+	width: 100%;
+}
+/*---------------------Estilos info--------------*/
+
+.structure-img{	
+	display: block;
+    height: 350px;
+    
+}
+
+.info-columna {
+	background: #808080;
+	color: #fff;
+	padding: 15px;	
+	margin-bottom: 30px;
+}
+
+.info-titulo{
+	text-shadow: 3px 1px #000000;
+}
+
+.info-txt, li{
+	color: #000000;
+}
+
+
+
+.csspartes-img{
+	display: block;
+	height: 250px;
+}
+
+
+/*---------------Estilos Pie Pagina-------------*/
+
+
+.footer{
+	padding: 10px;	
+    text-align: center;
+	color: #fff;
+	background: #000000;
+}
+
+.icon-unad{
+	padding: 10px;	
+	border-radius: 50px;
+	width: 70px;
+	height: 70px;		
+}
+
+/*-----------Actividades----------------------*/
+
+.test {
+	width: 640px;
+	height: 500px;
+}

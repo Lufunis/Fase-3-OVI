@@ -1,7 +1,8 @@
 body {
-	margin: 0;
+	margin: auto;
 	font-family: Angsana New;
-	background: #F0B429;
+	background: #FFF;
+	width: 90%;
 }
 
 * {
@@ -97,7 +98,7 @@ body {
 }
 
 .banner-titulo{
-	text-shadow: 3px 2px #f0b429;	
+	text-shadow: 3px 2px #FFF;	
 	font-size: 3em;
 }
 
@@ -107,21 +108,17 @@ body {
 }
 /*---------------------Estilos info--------------*/
 
-.structure-img{	
-	display: block;
-    height: 350px;
-    
-}
 
 .info-columna {
-	background: #808080;
+	background: #c1c1c1;
 	color: #fff;
 	padding: 15px;	
-	margin-bottom: 30px;
+	margin-bottom: 30px;		
 }
 
 .info-titulo{
-	text-shadow: 3px 1px #000000;
+	text-shadow: -1px 1px 0px #fff;
+	color: black;
 }
 
 .info-txt, li{
